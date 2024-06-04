@@ -1,0 +1,149 @@
+/* font */
+.almarai-regular {
+    font-family: "Almarai", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.almarai-bold {
+    font-family: "Almarai", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    font-family: "Almarai", sans-serif !important;
+}
+
+/* nav style */
+.navbar-toggler {
+    background-color: white;
+
+}
+
+.whiteColor {
+    color: white;
+}
+
+.bottomBorder {
+    border-bottom: 2px solid silver;
+}
+
+.nav-link:hover {
+    color: silver;
+
+}
+
+.carousel-inner {
+    background-color: #e9dbed;
+}
+
+/* caroustl style */
+.Caption {
+    position: relative;
+    bottom: 4rem;
+    right: 6rem;
+    color: #844693;
+}
+
+.carousel-item img {
+    width: 50% !important;
+    position: relative;
+    left: 50%;
+}
+
+/* HeaderSec style */
+.boldFont {
+    font-weight: bold;
+}
+
+/* cardCategory style */
+.cardCategory {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #d9d9d6;
+    position: relative;
+}
+
+.cardCategory img {
+    position: absolute;
+    width: 85px;
+    bottom: 7px;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+/* product section */
+.shadowCard {
+    box-shadow: 1px -1px 4px 1px rgb(219, 218, 218) !important;
+}
+
+/* discount style */
+.discountImg {
+    width: 100%;
+    height: 150px;
+    margin: 10px 0;
+}
+
+/* brand style */
+.brandCard {
+    border: 1px solid gainsboro;
+}
+
+.footer p {
+    color: gray;
+    font-size: 13px;
+}
+
+/* login page */
+.loginContainer {
+    width: 40%;
+    margin: 0 auto;
+    height: 75vh;
+    padding: 10% 0;
+}
+
+.centerAndBold {
+    font-weight: bold;
+    width: fit-content;
+    margin: 10px auto;
+}
+
+.loginContainer button {
+    width: 100%;
+    margin: 18px 0;
+}
+
+.loginContainer p span {
+    color: red;
+}
+
+a {
+    text-decoration: none !important;
+
+}
+
+.rowReverse {
+    flex-direction: row-reverse;
+
+}
+
+.dropelement div {
+    font-size: 13px;
+    padding: 10px 3px;
+    width: 100%;
+}
+
+.dropelement {
+    width: 200%;
+}
+
+.dropelement div:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.bgColor {
+    background-color: #6d676a;
+}
